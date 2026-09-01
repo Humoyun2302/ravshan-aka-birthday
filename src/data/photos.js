@@ -163,9 +163,9 @@ export const photos = {
   mountainValley: {
     src: "/photos/20240901_134306.jpg",
     alt: "Тоғлар орасидаги лаҳза",
-    type: "landscape",
+    type: "portrait",
     section: "travel",
-    position: "center 70%",
+    position: "center",
   },
   mountainPortrait: {
     src: "/photos/IMG_20240902_225355_386.jpg",

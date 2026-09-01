@@ -94,12 +94,12 @@ export default function PhotoStory({ onOpenPhoto }) {
           <AlbumPhoto photo={photos.mountainSelfie} onOpen={onOpenPhoto} className="photo-full" />
         </Reveal>
 
-        <div className="split">
+        <div className="portraits two">
           <Reveal>
-            <AlbumPhoto photo={photos.mountainValley} onOpen={onOpenPhoto} />
+            <AlbumPhoto photo={photos.mountainValley} onOpen={onOpenPhoto} className="portrait" />
           </Reveal>
-          <Reveal delay={80} className="portrait-hold">
-            <AlbumPhoto photo={photos.mountainPortrait} onOpen={onOpenPhoto} className="portrait tall" />
+          <Reveal delay={80}>
+            <AlbumPhoto photo={photos.mountainPortrait} onOpen={onOpenPhoto} className="portrait" />
           </Reveal>
         </div>
 
