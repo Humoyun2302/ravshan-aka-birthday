@@ -297,30 +297,6 @@ main {
   margin-left: 4px;
 }
 
-.music-btn {
-  position: fixed;
-  top: max(14px, env(safe-area-inset-top));
-  right: 14px;
-  z-index: 20;
-  display: flex;
-  align-items: center;
-  gap: 7px;
-  min-height: 44px;
-  padding: 0 12px;
-  border: 1px solid var(--line);
-  background: rgba(246, 241, 232, 0.88);
-  backdrop-filter: blur(8px);
-  color: var(--muted);
-  font-size: 11px;
-  letter-spacing: 0.16em;
-  text-transform: lowercase;
-}
-
-.music-btn.is-on {
-  color: var(--ink);
-  border-color: rgba(141, 115, 76, 0.35);
-}
-
 .lightbox {
   position: fixed;
   inset: 0;

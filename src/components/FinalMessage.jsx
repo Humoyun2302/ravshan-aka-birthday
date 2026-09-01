@@ -25,10 +25,7 @@ export default function FinalMessage({ onOpenPhoto }) {
       <div className="closing">
         <Reveal>
           <p className="hero-date">01.09.2026</p>
-          <h2 id="finale-title">
-            Таваллуд айёмингиз муборак,
-            <span>Равшан ака!</span>
-          </h2>
+          <h2 id="finale-title">Таваллуд айёмингиз муборак!</h2>
           <p className="closing-line">Доимо соғ-омон ва бахтли бўлинг.</p>
           <p className="from-family">
             Оилангиздан <span aria-hidden="true">♥</span>

@@ -6,7 +6,6 @@ import PhotoStory from "./components/PhotoStory.jsx";
 import Wishes from "./components/Wishes.jsx";
 import FinalMessage from "./components/FinalMessage.jsx";
 import PhotoLightbox from "./components/PhotoLightbox.jsx";
-import MusicButton from "./components/MusicButton.jsx";
 
 export default function App() {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -19,7 +18,6 @@ export default function App() {
 
   return (
     <>
-      <MusicButton />
       <main>
         <Hero onOpenPhoto={openPhoto} />
         <MemorySection onOpenPhoto={openPhoto} />

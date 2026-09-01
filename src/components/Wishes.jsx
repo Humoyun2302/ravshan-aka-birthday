@@ -2,10 +2,9 @@ import Reveal from "./Reveal.jsx";
 
 export default function Wishes() {
   return (
-    <section className="wishes" aria-labelledby="wishes-title">
+    <section className="wishes">
       <Reveal>
         <div className="ornament" aria-hidden="true" />
-        <h2 id="wishes-title">Равшан акага энг самимий тилаклар</h2>
       </Reveal>
 
       <Reveal className="letter">
